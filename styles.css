@@ -1,0 +1,80 @@
+body{
+    background-color: #990000;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 80px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px black;
+}
+a{
+    text-decoration: none;
+    color: #f8f3f3;
+}
+table{
+    color: #dfcece;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #990000;
+}
+.anioindex{
+    width: 100%;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+.anio2022 {
+    position: relative;
+    left: 50px;
+}
+.anio2023 {
+    position: relative;
+    left: 100px;
+}
+.anio2024 {
+    position: relative;
+    left: 150px;
+}
+.anio2025 {
+    position: relative;
+    left: 200px;
+}
+.anio2026 {
+    position: relative;
+    left: 250px;
+}
+form{
+    position: relative;
+    left: 300px;
+    top: 100px;
+    display: flex;
+}
+.escudo_pequeno_izq{ 
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+    justify-content: center;
+}
+.escudo_pequeno_izq img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 15px;
+    left: 200px;
+}
+.escudo_pequeno_der{ 
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+    justify-content: center;
+}
+.escudo_pequeno_der img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 15px;
+    left: -200px;
+}
