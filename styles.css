@@ -77,13 +77,22 @@ p{
     display: 60px;
     flex-direction: column;
     gap: 100px;
+    margin-bottom: 10px;
 }
 .tituloformulario{
     text-decoration: none;
-    color: black;
+    color: rgb(234, 238, 10);
     text-align: center;
     display: flex;
-    justify-content: center;
-    font-size: 30px;
+    font-size: 20px;
     -webkit-text-stroke: 0.5px black;
+    margin-bottom: 10px;
+}
+.boton-enviar{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
