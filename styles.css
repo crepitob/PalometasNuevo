@@ -131,11 +131,6 @@ h2 {
   transform: scale(1.1);
   transition: all 0.3s ease;
 }
-.logos {
-  display: flex;
-  flex-direction: row;
-  box-shadow: none;
-}
 .formulario_contacto{
   display: flex;
   flex-direction: column;
