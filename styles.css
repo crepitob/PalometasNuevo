@@ -130,7 +130,11 @@ h2 {
 .contenido img:hover {
   transform: scale(1.1);
   transition: all 0.3s ease;
-  box-shadow: var(--shadow);
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  box-shadow: none;
 }
 .formulario_contacto{
   display: flex;
