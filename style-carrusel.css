@@ -1,0 +1,82 @@
+:root {
+  --color-fondo-palometas: #900000;
+  --color-fondo-palometas-oscuro: #830202;
+  --color-letras-palometas: white;
+  --color-letras-palometas-claro: #f75858;
+  --shadow: 0 10px 20px rgba(255, 195, 195, 0.747), 0 1px 0 rgba(0, 0, 0, 0.04);
+  --shadow-text: 0 10px 20px rgba(252, 248, 248, 0.747),
+    0 1px 0 rgba(0, 0, 0, 0.04);
+  --color-linea-letra: 1px black;
+  --color-linea-letra-chica: 0.5px black;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #900000;
+  margin: 20px;
+  color: var(--color-letras-palometas);
+  font-family: EngraversGothic BT, sans-serif;;
+}
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.item {
+  text-align: center;
+}
+.item img {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+.item img:hover {
+  transform: scale(2);
+}
+.descargar {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  background: var(--color-fondo-palometas);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 60px;
+}
+.descargar:hover {
+  background: var(--color-letras-palometas-claro);
+}
+.logo {
+  display: flex;
+  width: 90px;
+  height: 90px;
+  transition: all 0.8s ease;
+  animation: saltar 0.5s ease-out;
+}
+@keyframes saltar {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(3);
+  }
+}
+.titulo {
+  color: var(--color-letras-palometas);
+  display: flex;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: var(--shadow);
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5px 20px;
+  text-transform: uppercase;
+  -webkit-text-stroke: var(--color-linea-letra-chica);
+}
