@@ -21,6 +21,7 @@ body {
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center;
+  margin: 0px 50px 0px 50px;
 }
 .item {
   text-align: center;
