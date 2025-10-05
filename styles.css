@@ -5,6 +5,7 @@
 }
 html {
   scroll-behavior: smooth;
+  display: flex;
 }
 :root {
   --color-fondo-palometas: #900000;
@@ -156,4 +157,13 @@ h2 {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+@media (max-width: 720px) {
+  .menu {font-size: 1.5rem;}
+  .menu h2 {font-size: 2rem;}
+  .contenido { margin: 0px 0px; padding: 0px; flex-wrap: wrap}
+  .contenido p { margin: 0px 0px; padding: 20px 20px;}
+  .contenido img { width: 150px; height: auto; margin: 10px 10px;}
+  .titulo{ font-size: 2.5rem; padding: 0px;}
+  .logo{ width: 50px; height: 50px; margin: 0px 5px;}
 }
