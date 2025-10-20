@@ -104,12 +104,13 @@ h2 {
 .contenido {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   color: var(--color-letras-palometas);
   font-size: 1.5rem;
   position: sticky;
   justify-content: center;
   text-align: center;
-  margin: 10px 200px;
+  margin: 20px 200px;
 }
 .contenido img {
   width: 200px;
