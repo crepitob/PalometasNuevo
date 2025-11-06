@@ -27,7 +27,7 @@ body {
   text-align: center;
 }
 .item img {
-  width: 300px;
+  width: 200px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
