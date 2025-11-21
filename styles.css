@@ -169,29 +169,6 @@ h2 {
   height: auto;
   border-radius: 10px;
 }
-
-/* @media (max-width: 600px) {
-  .menu {font-size: 1.5rem;}
-  .menu h2 {font-size: 2rem;}
-  .contenido { margin: 0px 0px; padding: 0px; flex-wrap: wrap}
-  .contenido p { margin: 0px 0px; padding: 0px;}
-  .contenido img { width: 150px; height: auto; margin: 10px 10px;}
-  .titulo{ font-size: 2.5rem; padding: 0px;-webkit-text-stroke: var(--color-linea-letra-chica);}
-  .logo{ width: 50px; height: 50px; margin: 0px 5px;}
-} */
-
-/* @media (max-width: 600px){
-  .contenedor {margin: 10px 0px;}
-  .titulo{ font-size: 2rem; margin-top: 10px;}
-  .contenido { margin: 0px 20px; padding: 0px; flex-wrap: wrap; font-size: 1.2rem;}
-} */
-/* @media (max-width: 500px) {
-  .titulo{ font-size: 1rem; padding: 0px; margin-top: 10px;}
-  .contenido img { width: 70px; height: auto; margin: 10px 10px;}
-  .contenido p { margin: 20px 10px; padding: 0px; line-height: 25px}
-  .contenido a { font-size: 1rem;}
-  .logo{ width: 60px; height: 25px; margin: 0px 5px;}
-} */
 @media (max-width: 1100px){
   .contenedor {margin: 10px 50px;}
 }
@@ -210,7 +187,7 @@ h2 {
   .menu h2 {font-size: 1rem;}
   .contenido { margin: 0px 60px; padding: 0px; flex-wrap: wrap; font-size: 1rem;}
   .contenido p { margin: 30px 40px; padding: 0px;line-height: 30px}
-  .contenido img { width: 100px; height: 70px; margin: 10px 10px;}
+  .contenido img { width: 130px; height: 90px; margin: 10px 10px;}
   .contenido a { font-size: 1.2rem;}
   .titulo{ font-size: 2rem; padding: 0px; margin-top: 10px;}
   .logo{ width: 35px; height: 35px; margin: 0px 5px;}
