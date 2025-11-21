@@ -179,13 +179,15 @@ h2 {
 
 
 @media (max-width: 1000px) {
+  h2{ font-size: 1.2rem; margin-top: 10px;}
   body{margin-top: 20px;}
   .menu {font-size: 1rem; margin-top: 5px;}
   .menu h2 {font-size: 1rem;}
-  .contenido { margin: 0px 0px; padding: 0px; flex-wrap: wrap; font-size: 1rem;}
-  .contenido p { margin: 0px; padding: 0px;}
-  .contenido img { width: 150px; height: auto; margin: 10px 10px;}
+  .contenido { margin: 0px 10px; padding: 0px; flex-wrap: wrap; font-size: 1rem;}
+  .contenido p { margin: 30px 40px; padding: 0px;}
+  .contenido img { width: 120px; height: auto; margin: 10px 10px;}
   .contenido a { font-size: 1.2rem;}
-  .titulo{ font-size: 1.5rem; padding: 0px;}
+  .titulo{ font-size: 1.5rem; padding: 0px; margin-top: 10px;}
   .logo{ width: 30px; height: 30px; margin: 0px 5px;}
+  .contenedor{margin: 10px 5px;}
 }
