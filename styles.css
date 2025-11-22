@@ -98,10 +98,9 @@ h2 {
 }
 .contenido {
   margin: 10px 150px;
-  
   align-items: center;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   color: var(--color-letras-palometas);
   font-size: 1.5rem;
   position: sticky;
