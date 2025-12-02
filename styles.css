@@ -133,8 +133,6 @@ h2 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 20px;
-  padding: 20px;
   color: var(--color-letras-palometas);
 }
 .formulario_contacto p {
